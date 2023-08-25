@@ -7,6 +7,7 @@ exports.generateIcon = (name) => {
     icon.resize(72, 72).write("res/mipmap-hdpi/ic_launcher.png");
     icon.circle().write("res/mipmap-hdpi/ic_launcher_round.png");
   });
+  
 
   //mipmap-mdpi
   Jimp.read(name, (err, icon) => {
